@@ -2,6 +2,8 @@ package hello.coreex.discount;
 
 import hello.coreex.member.Grade;
 import hello.coreex.member.Member;
+import org.springframework.stereotype.Component;
+
 
 public class FixDiscountPolicy implements DiscountPolicy {
 

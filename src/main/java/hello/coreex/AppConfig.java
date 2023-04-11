@@ -3,7 +3,6 @@ package hello.coreex;
 import hello.coreex.Order.OrderService;
 import hello.coreex.Order.OrderServiceImpl;
 import hello.coreex.discount.DiscountPolicy;
-import hello.coreex.discount.FixDiscountPolicy;
 import hello.coreex.discount.RateDiscountPolicy;
 import hello.coreex.member.MemberRepository;
 import hello.coreex.member.MemberService;

@@ -2,7 +2,6 @@ package hello.coreex.singleton;
 
 import hello.coreex.AppConfig;
 import hello.coreex.member.MemberService;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;

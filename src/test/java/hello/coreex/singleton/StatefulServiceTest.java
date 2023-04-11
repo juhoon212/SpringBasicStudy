@@ -17,7 +17,7 @@ public class StatefulServiceTest {
         // A사용자
         int userA = statefulService1.order("userA", 10000);
         // B사용자
-        int userB = statefulService2.order("userA", 20000);
+        int userB = statefulService2.order("userB", 20000);
 
         // A가 주문금액 조회
 //        int price = statefulService1.getPrice();
