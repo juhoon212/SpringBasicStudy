@@ -5,10 +5,13 @@ import hello.coreex.discount.FixDiscountPolicy;
 import hello.coreex.member.Member;
 import hello.coreex.member.MemberRepository;
 import hello.coreex.member.MemoryMemberRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
+//@RequiredArgsConstructor //lombok
 public class OrderServiceImpl implements OrderService{
 
     private final MemberRepository memberRepository;
