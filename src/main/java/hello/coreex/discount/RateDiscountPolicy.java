@@ -1,5 +1,6 @@
 package hello.coreex.discount;
 
+import hello.coreex.annotation.MainDiscountPolicy;
 import hello.coreex.member.Grade;
 import hello.coreex.member.Member;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -7,7 +8,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
+@MainDiscountPolicy
 public class RateDiscountPolicy implements DiscountPolicy{
 
     private int discountPercent = 10;
